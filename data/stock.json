@@ -1,0 +1,102 @@
+[
+  {
+    "id": "S1",
+    "grade": "AL-F",
+    "direction": [
+      "+",
+      "-"
+    ],
+    "free": [
+      [
+        0,
+        845
+      ]
+    ],
+    "occupied": [],
+    "offcut": true
+  },
+  {
+    "id": "S2",
+    "grade": "AL-F",
+    "direction": [
+      "+"
+    ],
+    "free": [
+      [
+        0,
+        650
+      ]
+    ],
+    "occupied": [
+      [
+        650,
+        950
+      ]
+    ],
+    "locked_refs": [
+      "card-old"
+    ],
+    "offcut": false
+  },
+  {
+    "id": "S3",
+    "grade": "AL-F",
+    "direction": [
+      "+",
+      "-"
+    ],
+    "free": [
+      [
+        0,
+        500
+      ],
+      [
+        690,
+        1090
+      ]
+    ],
+    "occupied": [
+      [
+        500,
+        690
+      ]
+    ],
+    "locked_refs": [
+      "card-other"
+    ],
+    "offcut": false
+  },
+  {
+    "id": "S4",
+    "grade": "AL-X",
+    "direction": [
+      "+",
+      "-"
+    ],
+    "free": [
+      [
+        0,
+        1200
+      ]
+    ],
+    "occupied": [],
+    "offcut": true
+  },
+  {
+    "id": "S5",
+    "grade": "AL-F",
+    "direction": [
+      "+",
+      "-"
+    ],
+    "free": [
+      [
+        0,
+        480
+      ]
+    ],
+    "occupied": [],
+    "offcut": true,
+    "arrives_after": "M5"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "R4",
+    "kind": "drawing",
+    "units_default": "mm",
+    "grade": "AL-F",
+    "kerf_mm": 3,
+    "min_reuse_mm": 180,
+    "pieces": [
+      {
+        "name": "长件",
+        "finished_mm": 300,
+        "tolerance_mm": 2,
+        "direction": "+",
+        "trim_min_mm": 3
+      },
+      {
+        "name": "短件",
+        "finished_mm": 250,
+        "tolerance_mm": 2,
+        "direction": "+",
+        "trim_min_mm": 3
+      },
+      {
+        "name": "右件",
+        "finished_mm": 240,
+        "tolerance_mm": 1,
+        "direction": "-",
+        "trim_min_mm": 4
+      }
+    ]
+  },
+  {
+    "id": "R5",
+    "kind": "drawing",
+    "units_default": null,
+    "grade": "AL-F",
+    "kerf_mm": 3,
+    "min_reuse_mm": 180,
+    "pieces": [
+      {
+        "name": "试样",
+        "finished_mm": 101.6,
+        "tolerance_mm": 1,
+        "direction": "-",
+        "trim_min_mm": 2
+      }
+    ]
+  },
+  {
+    "id": "J17",
+    "kind": "job",
+    "drawing": "R4",
+    "priority": 1
+  },
+  {
+    "id": "J19",
+    "kind": "job",
+    "drawing": "R5",
+    "priority": 2
+  }
+]
